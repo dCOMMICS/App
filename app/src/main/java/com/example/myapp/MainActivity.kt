@@ -48,6 +48,8 @@ class MainActivity : AppCompatActivity() {
             R.id.action_settings -> true
             else -> super.onOptionsItemSelected(item)
         }
+
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
